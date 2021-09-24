@@ -50,7 +50,7 @@ stop.onclick = function(){
     let slot3 = $('#value3').text()
     
     //if the outcome comes as true then display alert to the player that player won or else lost
-    if((slot1 === slot2) && (slot2 === slot3) && (slot1 === slot3)){
+    if((slot1 === slot2===slot3) && (slot2 === slot3) && (slot1 === slot3)){
         text.innerHTML="Congratulations! You Have Won"
     }
     else{

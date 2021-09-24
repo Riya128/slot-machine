@@ -52,7 +52,12 @@ body{
 #status{
     color: white;
 }
+.title{
+    color: white;
+    margin-left: 40%;
+    font-size: 30px;
 
+}
 .slot{
     height: 250px;
     margin: 20px;
